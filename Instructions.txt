@@ -1,0 +1,7 @@
+The Blockchain data is exported to Neo4j in 2 stages
+
+*) In the 1st stage Blocks, Transactions, Coinbase Transactions are uploaded to Noe4j using Importdata.java which uses org.bitcoinj API.
+
+*) In the 2ns stage, Transaction dta which includes transactionInputs, TransactionOutputs, Addresses are uploaded usinf ImportTransactionData.py which uses python blockchain parser.
+
+
